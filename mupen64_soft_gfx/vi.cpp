@@ -135,7 +135,7 @@ unsigned int convert_pixels(short src1, short src2){
 
 #ifdef PS3
 extern u32 *color_buffer[2];
-extern VideoResolution res;
+extern videoResolution res;
 #endif //PS3
 
 void VI::updateScreen()
