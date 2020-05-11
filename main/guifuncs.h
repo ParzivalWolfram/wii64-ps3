@@ -1,10 +1,10 @@
-/**
+/*
  * Mupen64 - guifuncs.h
  * Copyright (C) 2002 Hacktarux
  *
  * Mupen64 homepage: http://mupen64.emulation64.com
  * email address: hacktarux@yahoo.fr
- * 
+ *
  * If you want to contribute to the project please contact
  * me first (maybe someone is already making what you are
  * planning to do).
@@ -25,7 +25,7 @@
  * Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139,
  * USA.
  *
-**/
+ */
 
 char *get_currentpath();
 char *get_savespath();

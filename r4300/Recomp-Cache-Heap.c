@@ -1,7 +1,7 @@
-/**
+/*
  * Wii64 - Recomp-Cache-Heap.c
  * Copyright (C) 2009, 2010 Mike Slegeir
- * 
+ *
  * Cache for recompiled code using a heap to maintain LRU order
  *
  * Wii64 homepage: http://www.emulatemii.com
@@ -18,7 +18,7 @@
  * ranty of MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.
  * See the GNU General Public Licence for more details.
  *
-**/
+ */
 
 
 #include <sys/heap.h>

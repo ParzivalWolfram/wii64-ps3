@@ -1,4 +1,4 @@
-/**
+/*
  * Mupen64 - pure_interp.c
  * Copyright (C) 2002 Hacktarux
  *
@@ -25,7 +25,7 @@
  * Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139,
  * USA.
  *
-**/
+ */
 
 #include <stdio.h>
 #include <stdlib.h>
@@ -37,10 +37,9 @@
 #include "macros.h"
 #include "interupt.h"
 #include <ppu-types.h>
-
-#ifdef PPC_DYNAREC
 #include "Invalid_Code.h"
 #include "ARAM-blocks.h"
+#ifdef PPC_DYNAREC
 
 static void invalidate_func(unsigned int addr){
   PowerPC_block* block = blocks_get(addr>>12);

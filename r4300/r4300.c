@@ -1,4 +1,4 @@
-/**
+/*
  * Mupen64 - r4300.c
  * Copyright (C) 2002 Hacktarux
  *
@@ -25,7 +25,7 @@
  * Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139,
  * USA.
  *
-**/
+ */
 
 #include "../config.h"
 #include "r4300.h"

@@ -1,10 +1,10 @@
-/**
+/*
  * Mupen64 - r4300.h
  * Copyright (C) 2002 Hacktarux
  *
  * Mupen64 homepage: http://mupen64.emulation64.com
  * email address: hacktarux@yahoo.fr
- * 
+ *
  * If you want to contribute to the project please contact
  * me first (maybe someone is already making what you are
  * planning to do).
@@ -25,11 +25,10 @@
  * Software Foundation, Inc., 675 Mass Ave, Cambridge, MA 02139,
  * USA.
  *
-**/
+ */
 
 #ifndef R4300_H
 #define R4300_H
-
 #include <stdio.h>
 #include <string.h>
 #include <ppu-types.h>
@@ -38,7 +37,6 @@
 #include "recomp.h"
 
 #define LOW_WORD(reg) (*((s32*)&(reg)+1))
-
 typedef struct {
 	u32 pc, last_pc;
 	long long int gpr[32];
@@ -55,7 +53,6 @@ typedef struct {
 	tlb*          tlb_e; // [32]
 } R4300;
 extern R4300 r4300;
-
 #define local_rs (r4300.local_gpr[0])
 #define local_rt (r4300.local_gpr[1])
 #define local_rs32 LOW_WORD(local_rs)
@@ -121,4 +118,3 @@ void refresh_stat();
 #endif
 
 #endif
-
